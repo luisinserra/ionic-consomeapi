@@ -8,4 +8,26 @@
 
 <ion-content padding>
 
+      <ion-list>
+  
+      <ion-item>
+        <ion-label>Login</ion-label>
+        <ion-input id='tLogin' type="text" value={{oo}} (input)="setLogin($event.target.value)"></ion-input>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input type="password" value="" (input)="setSenha($event.target.value)"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <div padding>
+          <button ion-button color="primary" block (click) = "clicou()">Sign In</button>
+        </div>
+        {{tParm}}
+      </ion-item>
+  
+    </ion-list>
+
+
 </ion-content>
