@@ -15,6 +15,7 @@
     "@ionic-native/sqlite": "^5.6.1",
     "core-js": "2.4.1",
     "ionic-angular": "3.9.2",
+    "@ionic/storage": "2.2.0",
     "rxjs": "5.4.0",
     "typescript": "2.3.4",
     "zone.js": "0.8.12"
