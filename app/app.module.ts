@@ -12,6 +12,8 @@ import { ApiPage } from '../pages/api/api';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 
+import { DatabaseProvider } from '../providers/database/database';
+
 @NgModule({
   declarations: [
     MyApp,
