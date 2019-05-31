@@ -3,6 +3,9 @@ import { Platform } from 'ionic-angular';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
+import { DatabasePrivider } from '../providers/database/database';
+
+
 @Component({
   templateUrl: 'app.html'
 })
