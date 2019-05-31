@@ -39,7 +39,8 @@ import { DatabaseProvider } from '../providers/database/database';
     ApiPage
   ],
   providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DatabaseProvider
   ]
 })
 export class AppModule {}
