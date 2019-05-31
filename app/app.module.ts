@@ -10,7 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { ApiPage } from '../pages/api/api';
 
 import { HttpModule } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { DatabaseProvider } from '../providers/database/database';
 
