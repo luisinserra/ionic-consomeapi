@@ -7,7 +7,7 @@ import { DatabasePrivider } from '../providers/database/database';
 
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html' 
 })
 export class MyApp {
   rootPage:any = TabsPage;
